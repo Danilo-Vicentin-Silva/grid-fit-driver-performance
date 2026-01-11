@@ -74,8 +74,6 @@ npm run dev
 
 ## Licença
 
-Este repositório pode ser licenciado conforme sua preferência (ex.: MIT). Adicione um arquivo `LICENSE` se desejar.
+MIT Licence.
 
 ---
-
-Se quiser, eu posso: criar uma imagem de capa para o README, adicionar badges adicionais (Sentry, Playwright), e preparar um PR com as mudanças de code-quality e as instruções de commit. ✅
