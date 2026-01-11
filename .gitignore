@@ -41,3 +41,5 @@ coverage/
 # Optional: LFS for large binaries (images, videos)
 # Add tracked large assets with `git lfs track "*.psd"` or similar
 
+.vercel
+.env*.local

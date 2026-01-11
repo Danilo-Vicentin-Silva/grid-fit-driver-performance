@@ -11,25 +11,29 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "GridFit - Driver Performance",
-  description: "The ultimate physical training management tool for Kart and Motorsport pilots",
+  description:
+    "The ultimate physical training management tool for Kart and Motorsport pilots",
   generator: "v0.app",
-  manifest: "/manifest.json",
+  manifest: "/favicons/site.webmanifest",
   icons: {
     icon: [
+      { url: "/favicons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/favicons/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
+        url: "/favicons/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
       },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
+      { url: "/icon.svg", type: "image/svg+xml" },
     ],
-    apple: "/apple-icon.png",
+    shortcut: "/favicons/favicon.ico",
+    apple: "/favicons/apple-touch-icon.png",
+    other: [{ rel: "manifest", url: "/favicons/site.webmanifest" }],
   },
 }
 
