@@ -1,6 +1,6 @@
 # GridFit 🏁
 
-![Logo](./public/logo-placeholder.png)
+![Logo](./public/GridFit-no-background.webp)
 
 [![Next.js](https://img.shields.io/badge/Next.js-13-blue)](https://nextjs.org/) [![Tailwind](https://img.shields.io/badge/Tailwind-CSS-green)](https://tailwindcss.com/) [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)]
 
